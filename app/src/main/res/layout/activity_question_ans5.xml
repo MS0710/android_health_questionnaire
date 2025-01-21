@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.QuestionAns5Activity"
+    android:padding="10dp"
+    android:background="@drawable/background4">
+
+    <TextView
+        android:id="@+id/txt_qA5_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:textSize="@dimen/question_title1"
+        android:textColor="@color/black"
+        android:fontFamily="@font/content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_qA5_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:textSize="@dimen/question_title2"
+        android:textColor="@color/black"
+        android:fontFamily="@font/content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_qA5_title"/>
+
+    <View
+        android:id="@+id/view_dash"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/dash_line_green"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@+id/txt_qA5_title2"/>
+
+
+    <ListView
+        android:id="@+id/lv_qA5_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_dash"
+        android:layout_above="@+id/btn_qA5_send"/>
+
+    <Button
+        android:id="@+id/btn_qA5_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交，察看結果"
+        android:textSize="20sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:fontFamily="@font/content"
+        android:background="@drawable/btn_select_green"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

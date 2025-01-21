@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <dimen name="question_title"> 20sp</dimen>
+    <dimen name="question_qa4_title">17sp</dimen>
+    <dimen name="question_qa5_title">15sp</dimen>
+
+    <dimen name="question_title1">25sp</dimen>
+    <dimen name="question_title2">21sp</dimen>
+
+
+    <color name="gray">#9D9D9D</color>
+    <color name="blue">#97CBF1</color>
+    <color name="green">#4EA72E</color>
+    <color name="purple">#C996C1</color>
+    <color name="greenButon">#A8D09A</color>
+    <color name="deep_purple">#930093</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/txt_listQA3Item_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123456"
+        android:fontFamily="@font/content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/question_title"
+        android:gravity="left"/>
+
+    <RadioGroup
+        android:id="@+id/rg_listQA3Item_listItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_listQA3Item_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="很少"
+            android:fontFamily="@font/content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_title"/>
+
+        <RadioButton
+            android:id="@+id/rb_listQA3Item_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="偶爾"
+            android:fontFamily="@font/content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_title"/>
+
+        <RadioButton
+            android:id="@+id/rb_listQA3Item_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="總是"
+            android:fontFamily="@font/content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_title"/>
+
+    </RadioGroup>
+
+</LinearLayout>

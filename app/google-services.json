@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "703019881851",
+    "firebase_url": "https://healthproblemsapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "healthproblemsapp",
+    "storage_bucket": "healthproblemsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703019881851:android:e3b3b4720c0327639cd9de",
+        "android_client_info": {
+          "package_name": "com.example.questionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJPfAZBZ_OMJdWEpGeOTmgg0ydhEZxh0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

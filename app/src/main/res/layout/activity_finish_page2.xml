@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FinishPage2Activity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background3"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/txt_border_blue"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/txt_finishPage2_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="量測分數為: 10分"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/content"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_finishPage2_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="正常情況"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/jhd1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/txt_border_green"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/txt_finishPage2_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="與上次2024/07/31測驗相比"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/content"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_finishPage2_scoreJudgment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="進步許多"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/jhd1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/txt_border_yellow"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/txt_finishPage2_suggestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/finish_anxietyDisorder_1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/content"
+            android:gravity="center"
+            android:paddingVertical="10dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_finishPage2_picture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/doctor"/>
+
+    <Button
+        android:id="@+id/btn_finishPage2_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回主畫面"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:fontFamily="@font/content"
+        android:background="@drawable/btn_select_purple"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

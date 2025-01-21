@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity"
+    android:padding="10dp"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/txt_home_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_title"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/content"
+        android:padding="15dp"
+        android:background="@drawable/txt_border"/>
+
+    <GridView
+        android:id="@+id/gv_home_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_home_title"
+        android:layout_above="@+id/ConstraintLayout_home_bottom"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ConstraintLayout_home_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="想找適合的量表嗎?\n請點我喔!"
+            android:fontFamily="@font/content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:paddingHorizontal="0dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:background="@drawable/dialogbox"
+            app:layout_constraintCircle="@id/linear_home_bottom"
+            app:layout_constraintCircleAngle="55"
+            app:layout_constraintCircleRadius="90dp"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:id="@+id/linear_home_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <ImageView
+                android:id="@+id/img_home_shrimp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/shrimp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</RelativeLayout>

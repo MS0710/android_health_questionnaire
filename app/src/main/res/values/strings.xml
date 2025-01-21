@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">健康量測調查與記錄系統</string>
+
+    <string name="first_title">早安、你好、吃飽沒?\n\n今天想諮詢哪方面症狀的量表呢?</string>
+
+    <string name="finish_page_0">如果您認為上述狀況已影響您日常生活，建議諮詢專業醫師了解狀況!!</string>
+
+    <string name="finish_autonomicNervousSystem_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_autonomicNervousSystem_2">提醒您隨時注意自己的身心狀況，必要時可至醫院進行相關檢查。</string>
+    <string name="finish_autonomicNervousSystem_3">您有明顯中/重度自律神經失調，請立即尋找神經內科醫師協助。</string>
+
+    <string name="finish_brainFatigueIndex_1">您做得很好!擁有健康的大腦，請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_brainFatigueIndex_2">建議您放慢生活步調，確保充足的休息與睡眠。</string>
+    <string name="finish_brainFatigueIndex_3">您有明顯的腦神經衰弱症狀，請立即尋求神經內科醫師協助。</string>
+
+    <string name="finish_angel_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_angel_2">您有明顯的天使綜合症症狀，建議您尋求神經內科醫師協助。</string>
+
+    <string name="finish_dementia_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_dementia_2">您有失智症的跡象，請尋求神經內科醫師協助檢查。</string>
+
+    <string name="finish_parkinsonsDisease_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_parkinsonsDisease_2">您有患上巴金森氏症的跡象，請立即尋求神經內科醫師協助。</string>
+
+    <string name="finish_schizophrenia_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_schizophrenia_2">您有思覺失調症的跡象，請立即尋求神經內科醫師協助。</string>
+
+    <string name="finish_insomnia_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_insomnia_2">需留意自身睡眠狀況，雖然還稱不上有睡眠問題，但應留意自己的睡面狀況。</string>
+    <string name="finish_insomnia_3">您有明顯失眠症症狀，失眠是可以改善的，請尋求專業醫師協助。</string>
+
+    <string name="finish_hypersomnia_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_hypersomnia_2">大部分是正常的，不放心就諮詢一下神經內科醫師吧!</string>
+    <string name="finish_hypersomnia_3">您有明顯嗜睡症症狀，請立即尋求神經內科醫師協助。</string>
+
+    <string name="finish_depression_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_depression_2">最近情緒是否起伏不定?請尋找親友分享，解除心中的困惑與心事。</string>
+    <string name="finish_depression_3">您是否感到相當不舒服、難過?因為你的心已「感冒」，心病需要心藥醫，趕緊到醫院找專業可信賴的醫生檢查。</string>
+
+    <string name="finish_anxietyDisorder_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_anxietyDisorder_2">請尋找親友分享，解除心中的焦慮。</string>
+    <string name="finish_anxietyDisorder_3">您有明顯的中/重度焦慮症症狀，請立即尋求神經內科醫師協助。</string>
+
+    <string name="finish_ADHD_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_ADHD_2">提醒您很可能有過動症(專注力不集中為主)，有疑問請聯絡醫生或有關的專業人士。</string>
+    <string name="finish_ADHD_3">您有明顯過動症(專注力不集中為主)，請立即尋求醫生或有關的專業人士協助。</string>
+
+    <string name="finish_stroke_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_stroke_2">提醒您有輕度中風症狀，有疑問請聯絡醫生或有關的專業人士。</string>
+    <string name="finish_stroke_3">您有明顯中風，請立即尋求醫生或有關的專業人士協助。</string>
+
+    <string name="finish_herpesZoster_1">您做得很好!請繼續保持良好的運動習慣與生活作息。</string>
+    <string name="finish_herpesZoster_2">疑似有帶狀泡疹後神經痛或其他疾病症狀，請趕緊到醫院找專業可信賴的神經內科醫生做檢查。</string>
+
+
+    <string name="SelectSymptomsActivity_1">頭部</string>
+    <string name="SelectSymptomsActivity_1_1">痛、暈、昏、眩、脹、熱…等</string>
+    <string name="SelectSymptomsActivity_2">五官(眼、鼻、耳、口、喉)</string>
+    <string name="SelectSymptomsActivity_2_1">腫痛、疲勞、模糊、乾澀、流眼淚、流口水、耳鳴、灼熱感、異物感…等</string>
+    <string name="SelectSymptomsActivity_3">胸部與肺部</string>
+    <string name="SelectSymptomsActivity_3_1">呼吸困難、心悸、無力、胸悶、壓迫感…等</string>
+    <string name="SelectSymptomsActivity_4">腹部</string>
+    <string name="SelectSymptomsActivity_4_1">腸胃不適、嘔吐、腹瀉、便秘…等</string>
+    <string name="SelectSymptomsActivity_5">膀胱與生殖器</string>
+    <string name="SelectSymptomsActivity_5_1">頻尿、尿床、殘尿感、性障礙…等</string>
+    <string name="SelectSymptomsActivity_6">四肢與肌肉</string>
+    <string name="SelectSymptomsActivity_6_1">僵硬、顫抖、彎曲、行動緩慢、站不穩、跌倒…等</string>
+    <string name="SelectSymptomsActivity_7">皮膚與關節</string>
+    <string name="SelectSymptomsActivity_7_1">痛、發汗、無力、灼熱感、神經痛、僵硬…等</string>
+    <string name="SelectSymptomsActivity_8">飲食習慣改變</string>
+    <string name="SelectSymptomsActivity_8_1">食慾不振、厭食、暴食…等</string>
+    <string name="SelectSymptomsActivity_9">睡眠習慣改變</string>
+    <string name="SelectSymptomsActivity_9_1">失眠、嗜睡、淺眠、多夢、打鼾…等</string>
+    <string name="SelectSymptomsActivity_10">表達與溝通障礙</string>
+    <string name="SelectSymptomsActivity_10_1">說話不清楚、寫字越寫越小</string>
+    <string name="SelectSymptomsActivity_11">情緒起伏大</string>
+    <string name="SelectSymptomsActivity_11_1">焦躁、易怒、激動、焦慮…等</string>
+    <string name="SelectSymptomsActivity_12">異常重複行為</string>
+    <string name="SelectSymptomsActivity_12_1">問問題、摳指甲、洗手…等</string>
+    <string name="SelectSymptomsActivity_13">失常行為</string>
+    <string name="SelectSymptomsActivity_13_1">無緣由突然大笑、靜不下來…等</string>
+    <string name="SelectSymptomsActivity_14">負面思考行為</string>
+    <string name="SelectSymptomsActivity_14_1">持續悲傷、沒自信、自殘、自殺…等</string>
+    <string name="SelectSymptomsActivity_15">眼歪嘴斜</string>
+    <string name="SelectSymptomsActivity_16">恐慌或孤獨感</string>
+    <string name="SelectSymptomsActivity_17">注意力不集中</string>
+    <string name="SelectSymptomsActivity_18">記憶力減退</string>
+    <string name="SelectSymptomsActivity_19">異常疲勞無力</string>
+    <string name="SelectSymptomsActivity_20">撲克臉</string>
+    <string name="SelectSymptomsActivity_21">幻覺或妄想</string>
+    <string name="SelectSymptomsActivity_22">判斷力不佳</string>
+    <string name="SelectSymptomsActivity_23">語速過快</string>
+    <string name="SelectSymptomsActivity_24">嗜好失去興趣</string>
+
+
+</resources>

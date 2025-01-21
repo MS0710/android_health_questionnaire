@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FinishPageActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background3"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/txt_finishPage_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="量測結果為分數:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_finishPage_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正常情況"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/dash_line"
+        android:layout_marginVertical="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_finishPage_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finish_anxietyDisorder_3"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="與上次相比:"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:fontFamily="@font/content"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/txt_finishPage_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2024.07.10"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:fontFamily="@font/content"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:fontFamily="@font/content"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/txt_finishPage_scoreJudgment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text= "同分"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:fontFamily="@font/content"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_finishPage_picture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/doctor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finish_page_0"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:fontFamily="@font/content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_finishPage_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回主畫面"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:fontFamily="@font/content"
+        android:background="@drawable/btn_select_purple"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
